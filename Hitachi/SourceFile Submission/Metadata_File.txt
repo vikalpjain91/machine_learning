@@ -1,0 +1,21 @@
+Dat Modeling Approach:
+Sorting the data based on the time stamp(because data may change over the period of time)
+Finding the data based on the distance between two points
+Creating the clusters based on the distance. name them as cluster number
+Removing latitude and longitude as we already found the distance and clusters.
+Categorical Columns:
+['source_name',
+ 'destination_name',
+ 'country_code_source',
+ 'country_code_destination',
+ 'current_year',
+ 'current_week',
+ 'current_day',
+ 'is_weekend',
+ 'pickup_cluster_number']
+
+Non Categorical Columns:
+['id_code', 'train_name', 'trip_distance','mean_halt_times_destination', 'mean_halt_times_source']
+
+
+
